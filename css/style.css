@@ -1,4 +1,45 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: #dadada;
+  background-color: #FCFCFC;
   font-size: 10px;
+  display: block;
+}
+
+.emphasis {
+  text-transform: uppercase;
+  margin-left: 30%;
+  font-size: .8em;
+  font-family: system-ui, sans-serif;
+}
+
+.container {
+  background-color: #DFDFDF;
+  margin: 900px;
+  margin-top: 40px;
+  padding-top: 40px;
+  width: 20%;
+}
+
+img {
+  width: 100%;
+}
+
+.preview-baku, h1 {
+  font-size: 2em;
+
+}
+
+.preview-london {
+
+}
+
+.preview-madrid {
+
+}
+
+.preview-rome {
+
 }
