@@ -5,13 +5,12 @@
 body {
   background-color: #FCFCFC;
   font-size: 10px;
-  display: block;
 }
 
 h1 {
   text-transform: uppercase;
   font-family: sans-serif;
-  margin-left: 39%;
+  margin-left: 22%;
 }
 
 .container {
@@ -19,29 +18,33 @@ h1 {
   background-color: #DFDFDF;
   margin-top: 40px;
   padding-top: 40px;
+  background-size: 300px;
 }
 
 .preview h1 {
-  font-size: 2em;
+  font-size: 1.5em;
   text-transform: none;
   margin: 10px;
-  padding: 35px;
-  background-size: auto;
   margin-top: 4%;
+  background-size: auto;
 }
 
 .baku {
   background-image: url("../images/baku.jpg");
+  background-size: cover;
 }
 
 .london {
   background-image: url("../images/london.png");
+  background-size: cover;
 }
 
 .madrid {
   background-image: url("../images/madrid.jpg");
+  background-size: cover;
 }
 
 .rome {
   background-image: url("../images/rome.jpg");
+  background-size: cover;
 }
