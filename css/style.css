@@ -55,6 +55,13 @@ h1 {
      width: 48%;
      float: left;
 }
+}
+
+  .baku {
+    background-image: url("../images/baku.jpg");
+    background-size: cover;
+}
+}
 
 
 @media screen and (min-width: 991px){
