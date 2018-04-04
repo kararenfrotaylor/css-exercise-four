@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #FCFCFC;
+  background-color: #DFDFDF;
   font-size: 10px;
 }
 
@@ -11,6 +11,7 @@ h1 {
   text-transform: uppercase;
   font-family: sans-serif;
   margin-left: 22%;
+  padding-bottom: 5%
 }
 
 .container {
@@ -50,21 +51,31 @@ h1 {
 }
 
 @media screen and (min-width: 575px){
-   .preview h1 {
-     margin: 1%;
-     width: 48%;
-     float: left;
-}
-}
+  .preview {
+    margin: 1%;
+    width: 48%;
+    float: left;
+  }
 
-  .baku {
-    background-image: url("../images/baku.jpg");
-    background-size: cover;
-}
-}
+  .container {
+    background-color: #DFDFDF;
+  }
 
+  h1 {
+    font-size: 1.3em;
+    margin-left: 39%;
+    padding-bottom: 5%;
+  }
+}
 
 @media screen and (min-width: 991px){
-  .preview h1 {
+  .preview {
     width: 23%;
+  }
+
+  h1 {
+    font-size: 2em;
+    padding-bottom: 5%;
+    margin-left: 44%;
+  }
 }
